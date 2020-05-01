@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [verify pagee]">
+  <parameter name="browser" value="firefox"/>
+  <test name="facebook Homepage test(failed)">
+    <classes>
+      <class name="com.selenium.basic.InvokeBrowserAuto">
+        <methods>
+          <include name="verifyFaceBookHomePage"/>
+          <include name="OpenBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.selenium.basic.InvokeBrowserAuto -->
+    </classes>
+  </test> <!-- facebook Homepage test(failed) -->
+  <test name="facebook  test(failed)">
+    <classes>
+      <class name="com.selenium.basic.InvokeBrowserAuto">
+        <methods>
+          <include name="verifyFaceBookHomePage"/>
+          <include name="OpenBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.selenium.basic.InvokeBrowserAuto -->
+    </classes>
+  </test> <!-- facebook  test(failed) -->
+</suite> <!-- Failed suite [verify pagee] -->
