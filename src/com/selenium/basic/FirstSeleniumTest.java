@@ -17,7 +17,7 @@ public class FirstSeleniumTest {
 		
 		System.setProperty("webdriver.gecko.driver","C:\\Users\\DELL\\mars_workspace\\FirstSelenium\\Drivers\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
-		driver.manage().window().maximize(); //to maximize window size
+		driver.manage().window().maximize();
 		driver.get(url);
 		driver.manage().window().maximize(); //to maximize window size
 		String pageTitle = driver.getTitle();
