@@ -22,7 +22,7 @@ public class FirstSeleniumTest {
 		driver.manage().window().maximize(); //to maximize window size
 		String pageTitle = driver.getTitle();
 	    System.out.println("get the title:" +pageTitle);
-		//Assert.assertEquals(pageTitle, "Facebook – log in or sign up");
+		Assert.assertEquals(pageTitle, "Facebook – log in or sign up");
 	    driver.close(); //for closing browser
 	} 
 }
